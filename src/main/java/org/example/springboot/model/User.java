@@ -15,10 +15,8 @@ public class User {
     @Column(name = "nick_name")
     private String nickName;
 
-    @Column(name = "email")
     private String email;
 
-    @Column(name = "password")
     private String password;
 
     public User() {
